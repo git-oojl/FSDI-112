@@ -69,3 +69,15 @@ python manage.py runserver
 Then open `http://127.0.0.1:8000/about/` in a browser.
 
 Repository: https://github.com/git-oojl/FSDI-112
+
+## Class 3 – Assignment 3
+
+### Blog App: Post model
+
+The Blog App data was created through the Django Administration site at `/admin/`:
+
+- 2 additional users were added: `graphics_dev` and `backend_builder`.
+- 5 Post records were created and assigned across the available users.
+- The posts are visible at `/posts/list/`.
+
+Repository: https://github.com/git-oojl/FSDI-112
