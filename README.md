@@ -45,3 +45,27 @@
 6. To run the server:
 
     - Both OS: python manage.py runserver
+
+## Class 1 – Assignment 1
+
+### About Me page
+
+The About Me assignment is available at `/about/` and includes:
+
+- `AboutPageView` inside the `pages` app.
+- An About Me template with a personal introduction.
+- A URL pattern connected to the About page.
+- A page-specific stylesheet with responsive interest cards.
+
+### Verify the assignment
+
+From the project folder, run:
+
+```text
+python manage.py check
+python manage.py runserver
+```
+
+Then open `http://127.0.0.1:8000/about/` in a browser.
+
+Repository: https://github.com/git-oojl/FSDI-112

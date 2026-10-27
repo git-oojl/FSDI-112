@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(45, 77, 67);
+}
+
+.about-page {
+    max-width: 1000px;
+    margin: 3rem auto;
+    color: #f5f3e8;
+}
+
+.about-hero {
+    padding: 3rem;
+    border: 2px solid #f0b35b;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(19, 40, 35, 0.96), rgba(45, 77, 67, 0.85));
+    box-shadow: 12px 12px 0 #132823;
+}
+
+.about-kicker {
+    margin-bottom: 0.75rem;
+    color: #f0b35b;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+}
+
+.about-hero h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.about-intro {
+    max-width: 700px;
+    margin-bottom: 0;
+    color: #d9e5d8;
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.about-interests {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.interest-card {
+    min-height: 190px;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    background-color: #f5f3e8;
+    color: #132823;
+}
+
+.interest-number {
+    color: #b56c2d;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+}
+
+.interest-card h2 {
+    margin: 0.7rem 0;
+    font-size: 1.25rem;
+}
+
+.interest-card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        margin: 2rem auto;
+    }
+
+    .about-hero {
+        padding: 2rem;
+    }
+
+    .about-interests {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,10 +1,43 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
 
 {% block title %}
-    About Me
+    About Jose Luis
 {% endblock %}
 
 {% block content %}
-    <h1>About Me</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus vitae quibusdam natus perferendis molestiae pariatur quo obcaecati recusandae beatae magnam impedit cumque fugit a similique amet esse, ducimus sit velit delectus expedita distinctio quam enim ipsam hic. Quaerat ut vitae, tenetur, rerum accusamus quia repudiandae, labore dolores officia laudantium minima vel amet consectetur numquam molestias ipsa magni culpa fugit quo corporis excepturi? Neque, nulla.</p>
+    <main class="about-page">
+        <section class="about-hero">
+            <p class="about-kicker">class ch70 · software engineering</p>
+            <h1>About Me</h1>
+            <p class="about-intro">
+                I'm Jose Luis, a senior software engineering student interested in
+                graphics programming and backend development. I like learning how
+                software works under the hood and turning those ideas into useful,
+                reliable projects.
+            </p>
+        </section>
+
+        <section class="about-interests" aria-label="Jose Luis's interests">
+            <article class="interest-card">
+                <span class="interest-number">01</span>
+                <h2>Graphics programming</h2>
+                <p>Exploring the code behind visuals, motion, and interactive experiences.</p>
+            </article>
+            <article class="interest-card">
+                <span class="interest-number">02</span>
+                <h2>Backend systems</h2>
+                <p>Building the routes, data, and logic that help applications work smoothly.</p>
+            </article>
+            <article class="interest-card">
+                <span class="interest-number">03</span>
+                <h2>Always learning</h2>
+                <p>Growing through class projects, experimentation, and hands-on practice.</p>
+            </article>
+        </section>
+    </main>
 {% endblock %}
