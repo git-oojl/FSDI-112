@@ -70,6 +70,23 @@ Then open `http://127.0.0.1:8000/about/` in a browser.
 
 Repository: https://github.com/git-oojl/FSDI-112
 
+## Class 2 – Assignment 2
+
+### Templates using Django Template Language and static files
+
+The About Me page was updated to use the shared template structure:
+
+- `about.html` extends `base.html`.
+- `base.html` includes the shared navbar from `navbar.html`.
+- The About page loads its page-specific stylesheet with `{% load static %}`.
+- The page is available at `/about/`.
+
+### Verify the assignment
+
+Run the project and open `http://127.0.0.1:8000/about/` to verify the inherited navbar, About Me content, and styling.
+
+Repository: https://github.com/git-oojl/FSDI-112
+
 ## Class 3 – Assignment 3
 
 ### Blog App: Post model
