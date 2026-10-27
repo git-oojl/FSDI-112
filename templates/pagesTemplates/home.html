@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <h1>Home Page using DTL!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores animi ducimus commodi earum odit recusandae, fuga ipsam ab aut optio quisquam consectetur. Nemo quisquam nesciunt repudiandae odio rem vitae inventore dignissimos facere temporibus, iure id nostrum maiores omnis, mollitia ipsum doloremque, quas eum aut cupiditate. Ullam eum est voluptas quis quam reiciendis dolores tenetur iste animi libero sint, asperiores sapiente, atque veritatis id! Tempore quam deserunt facilis consequuntur nobis omnis dolorum eaque repudiandae molestias. Sit, inventore aliquam fugit magni itaque quos esse tempore! Illum aliquid commodi cumque consequuntur unde praesentium? Totam impedit enim libero quis. Suscipit veritatis molestias nihil eum! At rerum pariatur quas asperiores natus ipsam.</p>
+    <p>{{ name }}</p>
+    <img width="500" src="{% static 'images/example.jpg' %}" alt="Blog Game">
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/home.js' %}"></script>
+{% endblock %}
+
