@@ -68,8 +68,6 @@ python manage.py runserver
 
 Then open `http://127.0.0.1:8000/about/` in a browser.
 
-Repository: https://github.com/git-oojl/FSDI-112
-
 ## Class 2 – Assignment 2
 
 ### Templates using Django Template Language and static files
@@ -85,8 +83,6 @@ The About Me page was updated to use the shared template structure:
 
 Run the project and open `http://127.0.0.1:8000/about/` to verify the inherited navbar, About Me content, and styling.
 
-Repository: https://github.com/git-oojl/FSDI-112
-
 ## Class 3 – Assignment 3
 
 ### Blog App: Post model
@@ -97,4 +93,3 @@ The Blog App data was created through the Django Administration site at `/admin/
 - 5 Post records were created and assigned across the available users.
 - The posts are visible at `/posts/list/`.
 
-Repository: https://github.com/git-oojl/FSDI-112
