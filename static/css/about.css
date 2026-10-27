@@ -16,15 +16,6 @@ body {
     box-shadow: 12px 12px 0 #132823;
 }
 
-.about-kicker {
-    margin-bottom: 0.75rem;
-    color: #f0b35b;
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.18rem;
-    text-transform: uppercase;
-}
-
 .about-hero h1 {
     margin-bottom: 1rem;
     font-size: clamp(2.5rem, 8vw, 5rem);
@@ -40,35 +31,47 @@ body {
     line-height: 1.8;
 }
 
-.about-interests {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+.about-notes {
     margin-top: 2rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(245, 243, 232, 0.35);
+    border-bottom: 1px solid rgba(245, 243, 232, 0.35);
 }
 
-.interest-card {
-    min-height: 190px;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    background-color: #f5f3e8;
-    color: #132823;
+.about-notes-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.interest-number {
+.about-notes-heading h2 {
+    margin: 0;
+    color: #f5f3e8;
+    font-size: 1.25rem;
+}
+
+.interest-number,
+.note-label {
     color: #b56c2d;
     font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 0.12rem;
 }
 
-.interest-card h2 {
-    margin: 0.7rem 0;
-    font-size: 1.25rem;
+.note-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(245, 243, 232, 0.16);
 }
 
-.interest-card p {
-    margin-bottom: 0;
+.note-row p {
+    margin: 0;
+    color: #d9e5d8;
     line-height: 1.6;
 }
 
@@ -81,7 +84,10 @@ body {
         padding: 2rem;
     }
 
-    .about-interests {
-        grid-template-columns: 1fr;
+    .about-notes-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.35rem;
     }
+
 }

@@ -3,7 +3,12 @@ body {
 }
 
 h1 {
+    color: #f5f3e8;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bolder;
+}
+
+p {
+    color: #d9e5d8;
 }
