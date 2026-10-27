@@ -22,9 +22,9 @@ def contact_page(request):
     # return HttpResponse("Hello World from a FBV")
 
     contact_info = {
-        "name": "Luis",
+        "name": "Jose Luis",
         "address": "Something 444, CA",
-        "email": "lrenteria@sdgku.edu"
+        "email": "jose.ortizosuna@cesunbc.edu.mx"
     }
 
     return render(request, "pagesTemplates/contact.html", contact_info)
